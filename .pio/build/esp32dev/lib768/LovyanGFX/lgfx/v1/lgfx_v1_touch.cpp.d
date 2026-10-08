@@ -1,0 +1,81 @@
+.pio/build/esp32dev/lib768/LovyanGFX/lgfx/v1/lgfx_v1_touch.cpp.o: \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/lgfx_v1_touch.cpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_CHSC6540.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_CHSC6540.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/../Touch.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/../platforms/common.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/../platforms/esp32/common.hpp \
+ E:/Downloads/esp32\ 2432s028/.pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/misc/DataWrapper.hpp \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp_arduino_version.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp8266-compat.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/stdlib_noniso.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/binary.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/extra_attr.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/variants/esp32/pins_arduino.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/io_pin_remap.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Arduino.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-matrix.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-uart.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-gpio.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-touch.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-touch-ng.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-dac.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-adc.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-i2c.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-ledc.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rmt.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-sigmadelta.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-timer.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-bt.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-psram.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-rgb-led.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-cpu.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/WCharacter.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/WString.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/pgmspace.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Stream.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Print.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Printable.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/IPAddress.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Client.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Server.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Udp.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareSerial.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/HWCDC.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/USBCDC.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/Esp.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/freertos_stats.h \
+ E:/Downloads/esp32\ 2432s028/.pio/libdeps/esp32dev/LovyanGFX/src/lgfx/utility/pgmspace.h \
+ E:/Downloads/esp32\ 2432s028/.pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/misc/enum.hpp \
+ E:/Downloads/esp32\ 2432s028/.pio/libdeps/esp32dev/LovyanGFX/src/lgfx/utility/result.hpp \
+ E:/Downloads/esp32\ 2432s028/.pio/libdeps/esp32dev/LovyanGFX/src/lgfx/internal/memory.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/libraries/SPI/src/SPI.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-spi.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/libraries/Wire/src/Wire.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-log.h \
+ C:/Users/ACER/.platformio/packages/framework-arduinoespressif32/cores/esp32/HardwareI2C.h \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/../platforms/../../utility/result.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_CHSC6x.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_CHSC6x.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_CSTxxx.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_CSTxxx.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_FT5x06.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_FT5x06.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_GT911.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_GT911.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/../../internal/algorithm.h \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_NS2009.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_NS2009.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_RA8875.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_RA8875.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_STMPE610.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_STMPE610.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_TT21xxx.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_TT21xxx.hpp \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_XPT2046.inl \
+ .pio/libdeps/esp32dev/LovyanGFX/src/lgfx/v1/touch/Touch_XPT2046.hpp
