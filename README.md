@@ -6,7 +6,7 @@ A digital ID card sketch designed specifically for the **ESP32-2432S028** (commo
 
 ---
 
-## 🌟 Features
+## 🌟 Feat
 
 - **Embedded Photo**: Your photo from the reference image is professionally cropped and converted into a high-quality embedded JPEG stored directly inside the ESP32 flash memory (`photo_data.h`).
 - **Cyber / Glassmorphic UI**: High-contrast, clean dark theme (`#0F172A`) with vibrant sky cyan neon borders, rounded pill badges, and realistic security barcode.
