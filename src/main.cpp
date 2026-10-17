@@ -39,9 +39,11 @@ const char* ID_EXPIRY      = "12 / 2028";                  // Validity / Expiry 
 const char* ID_CONTACT     = "+977 980-000-0000";          // Emergency / Contact Phone
 const char* QR_LINK        = "https://github.com";         // Live QR Code Target URL / Text
 
-// Screen Orientation (Portrait for ID Badge):
-// Set to 1 (standard Portrait: USB port at bottom) or 3 (inverted Portrait: USB port at top)
-#define SCREEN_ROTATION    1
+// Screen Orientation (Portrait for ID Badge - 240x320):
+// 0 = Standard Portrait (USB port at bottom)
+// 2 = Inverted Portrait (USB port at top)
+// (Note: 1 and 3 are Landscape modes: 320x240)
+#define SCREEN_ROTATION    0
 
 // ============================================================================
 // 2. COLOR PALETTE (Modern Slate & Cyan Theme)
@@ -260,9 +262,13 @@ void setup() {
   setRgbLed(true, true, true); // White LED on boot
 
   // Initialize LCD Display
-  lcd.init();
+  if (!lcd.init()) {
+    Serial.println("[ERROR] Display init failed! Check CYD_DISPLAY_MODE in LGFX_ESP32_2432S028.h");
+  }
   lcd.setRotation(SCREEN_ROTATION);
   lcd.setBrightness(255); // Full backlight brightness
+
+  Serial.printf("Display resolution: %d x %d (Rotation: %d)\n", lcd.width(), lcd.height(), SCREEN_ROTATION);
 
   // Render initial Front ID Card
   drawFrontCard();
