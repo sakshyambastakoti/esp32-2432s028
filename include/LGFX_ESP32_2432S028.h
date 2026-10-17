@@ -5,17 +5,17 @@
 // ============================================================================
 // Display: 2.8" TFT 240x320 (ILI9341 or ST7789) on HSPI (GPIO 14, 13, 12, 15, 2)
 // Touch:   XPT2046 Resistive Touch via Software SPI (GPIO 25, 32, 39, 33)
-//          *Using Software SPI prevents SPI bus collisions with the MicroSD card!
+//          *Software SPI prevents bus conflicts with the MicroSD card!
 // RGB LED: Pins 4 (R), 16 (G), 17 (B) - Active LOW
 // LDR:     Pin 34 (Analog Light Sensor)
 //
-// Driver Selection:
+// Driver Mode:
 //   0 = AUTO_DETECT (LovyanGFX probes display ID: automatically picks ILI9341 or ST7789)
-//   1 = FORCE ILI9341 (For original single-USB CYD boards)
-//   2 = FORCE ST7789  (For newer dual-USB Type-C + Micro-USB CYD boards)
+//   1 = FORCE ILI9341 (240x320 Portrait, for ILI9341 boards)
+//   2 = FORCE ST7789  (240x320 Portrait, for ST7789 boards)
 // ============================================================================
 #ifndef CYD_DISPLAY_MODE
-#define CYD_DISPLAY_MODE 0
+#define CYD_DISPLAY_MODE 1  // Default to 1 (ILI9341 verified from board photo). Set to 0 for auto, 2 for ST7789
 #endif
 
 #if CYD_DISPLAY_MODE == 0
@@ -63,7 +63,7 @@ public:
       cfg.panel_height     = 320;  // True native panel height
       cfg.offset_x         = 0;
       cfg.offset_y         = 0;
-      cfg.offset_rotation  = 2;    // Rotation offset 2 matches CYD board orientation
+      cfg.offset_rotation  = 2;    // Rotation offset 2: fixes mirroring and aligns portrait
       cfg.dummy_read_pixel = 8;
       cfg.dummy_read_bits  = 1;
       cfg.readable         = true;
@@ -147,7 +147,7 @@ public:
       cfg.panel_height     = 320;  // True native panel height
       cfg.offset_x         = 0;
       cfg.offset_y         = 0;
-      cfg.offset_rotation  = 2;    // Rotation offset 2 matches CYD board orientation
+      cfg.offset_rotation  = 2;    // Rotation offset 2: fixes mirroring and aligns portrait
       cfg.dummy_read_pixel = 8;
       cfg.dummy_read_bits  = 1;
       cfg.readable         = true;
@@ -200,4 +200,3 @@ public:
 #define CYD_LED_GREEN   16   // Active LOW
 #define CYD_LED_BLUE    17   // Active LOW
 #define CYD_LDR_PIN     34   // Ambient Light Sensor
-
